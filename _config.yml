@@ -59,7 +59,7 @@ plugins:
 
 author:
   name   : "Keshav Karumbunathan"
-  avatar : "/assets/images/Self-Photo.jpg"
+  avatar : "/assets/images/Self-Picture.png"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
     - label: "Website"
