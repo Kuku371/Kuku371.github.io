@@ -16,11 +16,9 @@
 title: Keshav Karumbunathan
 email: keshavkarumbu0@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
+  Website for Keshav Karumbunathan including his blog posts, achievements, and math results.
+twitter_username: Rickroll me por favor
+github_username: Kuku371
 minimal_mistakes_skin: sunrise
 search: true
 
@@ -64,16 +62,16 @@ author:
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
+      url: "https://kuku371.github.io"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://www.linkedin.com/in/keshav-karumbunathan-b92491290/"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/keshav-karumbunathan-b92491290"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/Kuku371"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://www.instagram.com/kayshavk"
 
 footer:
   links:
@@ -82,10 +80,10 @@ footer:
       url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/Kuku371"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://www.instagram.com/kayshavk"
 
 defaults:
   # _posts
