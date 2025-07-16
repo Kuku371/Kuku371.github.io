@@ -6,7 +6,7 @@ title: "Competition Math"
 For the last $3$ years, I have been actively competing in the **MAA's American Mathematics Competition competition series**, and earned the following achievements:
 
 * AMC10 Distinguished Honor Roll(2024, 2025)
-* USAMTS (2025)
+* USAMTS Silver Medalist(2025)
 * 3x AIME Qualifier(2023,2024,2025)
 * USAMO Silver Medalist(2025)
 * MOP Qualifier(2025)
