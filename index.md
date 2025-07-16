@@ -8,7 +8,7 @@ author_profile: true
 ---
 
 
-Complex numbers are numbers with a *real component* and an *imaginary component*, in the form a+bi, where a and b are **real numbers** and i is the **imaginary unit**.
+Complex numbers are numbers with a *real component* and an *imaginary component*, in the form $a+bi$, where a and b are **real numbers** and $i$ is the **imaginary unit**.
 
 Hyper link [like this](https://en.wikipedia.org/wiki/Complex_number)
 
