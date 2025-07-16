@@ -60,7 +60,7 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
-    - label: "Website"
+    - label: "Homepage"
       icon: "fas fa-fw fa-link"
       url: "https://kuku371.github.io"
     - label: "LinkedIn"
