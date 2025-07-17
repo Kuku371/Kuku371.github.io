@@ -59,9 +59,6 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
-    - label: "Homepage"
-      icon: "fas fa-fw fa-link"
-      url: "https://kuku371.github.io"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/keshav-karumbunathan-b92491290"
@@ -77,9 +74,12 @@ author:
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    -label: "Gmail"
+      icon: "fab fa-fw fa-gmail"
+      url: "mailto:keshavkarumbu0@gmail.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/keshav-karumbunathan-b92491290"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Kuku371"
