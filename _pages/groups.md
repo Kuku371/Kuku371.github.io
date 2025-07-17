@@ -107,7 +107,7 @@ title: "Groups and Community Work"
   <div class="org-content">
     <div class="org-title">Troop 728 Life Scout</div>
     <div class="org-description" id="desc-4">
-    <p>Troops 728 is part of the Scouting America in the Cascade Pacific Council. Our mission is to provide opportunities for young men to have a fun, challenging, supportive and exciting scouting experience. This is achieved through a balance of scouts who are active and enthusiastic, supported by parents who are involved and supportive, in a program that is boy led and outdoor focused. FOr more information, visit <a href="https://www.troop728.com" target="_blank">this link</a>.</p>
+    <p>Troops 728 is part of the Scouting America in the Cascade Pacific Council. Our mission is to provide opportunities for young men to have a fun, challenging, supportive and exciting scouting experience. This is achieved through a balance of scouts who are active and enthusiastic, supported by parents who are involved and supportive, in a program that is boy led and outdoor focused. For more information, visit <a href="https://www.troop728.com" target="_blank">this link</a>.</p>
     <p>I have been a member of troop 728 since I joined during 2021. I have been actively participing in the troop throughout, spending over 50 nights camping. I have attended the National Youth Leadership Training(NYLT) and served as the Assistant Senior Patrol Leader(ASPL) during the 2025 summer term. I am currently a life scout, which is the second highest rank behind being an Eagle Scout.</p>
     </div>
     <button class="read-more-btn" onclick="toggleDescription('desc-4', this)">Read more</button>
