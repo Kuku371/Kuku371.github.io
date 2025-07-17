@@ -90,8 +90,6 @@ title: "Groups and Community Work"
   </div>
 </div>
 
-</div>
-
 <div class="org-card">
   <img class="org-logo" src="https://www.dolphinswimteam.org/osmjcc/team-logo/default/teamlogo-610-1368249799577_009622-t-thumb.jpg" alt="The Dolphins Logo">
   <div class="org-content">
@@ -102,8 +100,6 @@ title: "Groups and Community Work"
     </div>
     <button class="read-more-btn" onclick="toggleDescription('desc-2', this)">Read more</button>
   </div>
-</div>
-
 </div>
 
 <script>
