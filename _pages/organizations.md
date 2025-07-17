@@ -31,7 +31,7 @@ title: "Organizations and Community Work"
   }
 
   .org-content {
-    font-size: 0.6rem;
+    font-size: 0.75rem;
     flex: 1;
   }
 
