@@ -57,7 +57,7 @@ plugins:
 author:
   name   : "Keshav Karumbunathan"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "I am a student at Jesuit High School in Portland, Oregon who is interested in math and computer science."
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
