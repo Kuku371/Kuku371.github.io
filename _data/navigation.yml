@@ -9,3 +9,5 @@ main:
     url: /organizations/
   - title: "Studies"
     url: /studies/
+  - title: "Home"
+    url: /
