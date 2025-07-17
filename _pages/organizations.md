@@ -7,7 +7,7 @@ title: "Organizations and Community Work"
     display: flex;
     flex-direction: column;
     gap: 20px;
-    max-width: 1600px;
+    max-width: 75%;
     margin: 0 auto;
   }
 
