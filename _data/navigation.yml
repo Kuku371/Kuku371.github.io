@@ -5,8 +5,8 @@ main:
     url: /competitions/
   - title: "Books"
     url: /books/
-  - title: "Organizations"
-    url: /organizations/
+  - title: "Groups"
+    url: /groups/
   - title: "Studies"
     url: /studies/
   - title: "Home"
