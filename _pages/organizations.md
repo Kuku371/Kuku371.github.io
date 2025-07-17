@@ -16,7 +16,7 @@ title: "Organizations and Community Work"
     border: 1px solid #ddd;
     border-radius: 12px;
     padding: 16px;
-    background: #fff;
+    background: #7ea3c2;
     box-shadow: 0 2px 5px rgba(0,0,0,0.08);
     align-items: flex-start;
     position: relative;
