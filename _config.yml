@@ -66,7 +66,7 @@ author:
       url: "https://github.com/Kuku371"
     - label: "Gmail"
       icon: "fab fa-google fa-fw"
-      url: "mailto:keshavkarumbu0@gmail.com"
+      url: "https://mail.google.com/mail/u/0/?fs=1&to=keshavkarumbu0@gmail.com&tf=cm"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/kayshavk"
@@ -75,7 +75,7 @@ footer:
   links:
     - label: "Gmail"
       icon: "fab fa-google fa-fw"
-      url: "mailto:keshavkarumbu0@gmail.com"
+      url: "https://mail.google.com/mail/u/0/?fs=1&to=keshavkarumbu0@gmail.com&tf=cm"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/keshav-karumbunathan-b92491290"
