@@ -3,3 +3,9 @@ main:
     url: /blog/
   - title: "Competitions"
     url: /competitions/
+  - title: "Books"
+    url: /books/
+  - title: "Organizations"
+    url: /organizations/
+  - title: "Studies"
+    url: /studies/
