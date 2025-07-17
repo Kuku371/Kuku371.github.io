@@ -94,11 +94,11 @@ title: "Groups and Community Work"
   <img class="org-logo" src="https://www.dolphinswimteam.org/osmjcc/team-logo/default/teamlogo-610-1368249799577_009622-t-thumb.jpg" alt="The Dolphins Logo">
   <div class="org-content">
     <div class="org-title">The Dolphins Portland Swimmer</div>
-    <div class="org-description" id="desc-2">
+    <div class="org-description" id="desc-3">
     <p>The Dolphins Portland Swimming (TDPS) is a coach-owned club sanctioned by USA Swimming. The USA Swimming and Oregon Swimming, Inc. (OSI) organizations govern our club. TDPS has been serving Beaverton, OR, and surrounding communities for nineteen years, providing a year-round program for athletes. The club also provides a swim program in Gresham, OR. For more information, check out <a href="https://www.dolphinswimteam.org" target="_blank">this link</a>.</p>
       <p>I have been a member of the Dolphins swim team since 2015. I started swimming competitively in 2017, and since then, I have qualified for every OSI state short-course championship in multiple events. My latest accomplishment was getting a 10th place overall finish in the 100 yard backstroke finals at the state meet this March. I have been part of the Green Squad, the Dolphins highest level swimming group, since 2023.</p>
     </div>
-    <button class="read-more-btn" onclick="toggleDescription('desc-2', this)">Read more</button>
+    <button class="read-more-btn" onclick="toggleDescription('desc-3', this)">Read more</button>
   </div>
 </div>
 
