@@ -1,5 +1,5 @@
 ---
-permalink: /organizations/
+permalink: /groups/
 title: "Groups and Community Work"
 ---
 <style>
