@@ -79,6 +79,20 @@ title: "Groups and Community Work"
 </div>
 
 <div class="org-card">
+  <img class="org-logo" src="https://mathquantum.umd.edu/media/logo_hufe77ac44593b2476901cdeb3aa4f9e3d_30646_0x70_resize_lanczos_3.png" alt="MathQuantum Logo">
+  <div class="org-content">
+    <div class="org-title">MathQuantum RTG High School Fellow</div>
+    <div class="org-description" id="desc-2">
+    <p>MathQuantum is a Research Training Group (RTG) focused on enabling Mathematicians to enter the world of Quantum Information Science (QIS). We are housed at IPST and funded by NSF. With MathQuantum, we are building an educational program that will blend with collaborative research, such that education and research enhance each other in a vertically integrated training group. The research draws from a set of Mathematical areas where our faculty have expertise, and advance these by tackling QIS challenges under three themes. High school fellowships are offered during summer to about 10 students, who will participate together as a cohort. Fellowships consist of a ~2-week online program of math and quantum information science lectures, seminars, professional development workshops, hands-on activities, discussions, and a mini-project. For more information, check out <a href="https://mathquantum.umd.edu/" target="_blank">this link</a>.</p>
+      <p>I joined as part of the 2025 High School Fellowship cohort. Through MathQuantum, I have had mentored research, coursework, and seminars in applying mathematics to QIS problems. I also have access to internship opportunities at quantum companies & labs, various outreach activities, and networking opportunities.</p>
+    </div>
+    <button class="read-more-btn" onclick="toggleDescription('desc-2', this)">Read more</button>
+  </div>
+</div>
+
+</div>
+
+<div class="org-card">
   <img class="org-logo" src="https://www.dolphinswimteam.org/osmjcc/team-logo/default/teamlogo-610-1368249799577_009622-t-thumb.jpg" alt="The Dolphins Logo">
   <div class="org-content">
     <div class="org-title">The Dolphins Portland Swimmer</div>
