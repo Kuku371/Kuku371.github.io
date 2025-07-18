@@ -93,6 +93,10 @@ I am reachable on <span style="position: relative; cursor: help;">
 
 > "It's a constant quest to try to be better today than you were yesterday and better tomorrow than you were the day before" -Kobe Bryant
 
+Somewhat unrelated, but my favorite mathematical concept is the (unsolved) problem of how the digits of $\pi$ are related to colliding blocks of different masses. The problem and solution are well-described by the youtube channel 3Blue1Brown in the video below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6dTyOl1fmDo?si=SzuU6gW4dZN6RoPx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 <script>
   document.querySelectorAll("span[style*='position: relative']").forEach(el => {
     const tooltip = el.querySelector("span + span");
