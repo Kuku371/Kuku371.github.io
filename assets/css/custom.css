@@ -1,21 +1,27 @@
-/* Shrink top nav font size and spacing */
-.nav__items a {
-  font-size: 0.7rem !important;      /* smaller font */
-  padding-left: 6px !important;      /* less horizontal padding */
-  padding-right: 6px !important;
-  margin: 0 !important;               /* no margins */
-  letter-spacing: 0 !important;      /* no extra letter spacing */
-}
-
-/* Optionally, reduce header container padding so nav fits better */
-.site-header__inner {
-  max-width: 100% !important;
-  padding-left: 10px !important;
-  padding-right: 10px !important;
-}
-
-/* Allow horizontal scroll if nav items overflow */
+/* Hide top nav items everywhere */
 .nav__items {
-  overflow-x: auto;
-  white-space: nowrap;
+  display: none !important;
+}
+
+/* Show hamburger menu toggle always */
+.site-header__menu-toggle {
+  display: block !important;
+}
+
+/* Optional: shrink hamburger toggle icon size if needed */
+.site-header__menu-toggle svg {
+  width: 24px !important;
+  height: 24px !important;
+}
+
+/* Make sidebar nav scrollable if too long */
+.sidebar__nav {
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+/* Optionally shrink nav font size inside sidebar */
+.sidebar__nav a {
+  font-size: 0.8rem;
+  padding: 6px 12px;
 }
