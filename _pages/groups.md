@@ -1,6 +1,10 @@
 ---
 permalink: /groups/
 title: "Groups and Community Work"
+author_profile: true
+sidebar:
+  nav: "main"
+classes: wide
 ---
 <style>
   .org-container {
