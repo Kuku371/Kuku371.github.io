@@ -1,9 +1,6 @@
 ---
 permalink: /about/
 title: "About me"
-author_profile: true
-sidebar:
-  nav: "main"
 ---
 
 
@@ -11,12 +8,11 @@ sidebar:
   .initial-content,
   .page,
   main.page {
-    max-width: 100% !important;
-    width: 100% !important;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    max-width: 1200px !important; /* Wider than default (~800px) */
+    width: auto !important;       /* Don't stretch under sidebar */
   }
 </style>
+
 
 
 [<img src="https://www.oregonmathcircle.org/static/media/keshav-prof-pic.83deb0a285ba5806065f.jpg" alt="Keshav Karumbunathan" width="200" style="display: block; margin: 0 auto" />](https://www.oregonmathcircle.org/static/media/keshav-prof-pic.83deb0a285ba5806065f.jpg)
