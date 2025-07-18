@@ -118,6 +118,20 @@ classes: wide
   </div>
 </div>
 
+<h2>Previous Organizations</h2>
+
+<div class="org-card">
+  <img class="org-logo" src="https://www.beavertonlibrary.org/ImageRepository/Document?documentID=8212" alt="TLC Logo">
+  <div class="org-content">
+    <div class="org-title">Beaverton Teen Library Council Volunteer</div>
+    <div class="org-description" id="desc-5">
+    <p>Beaverton City Library's Teen Library Council (TLC) offers teens the opportunity to make a positive difference in the community and have input in the way the library serves teens. Members plan, promote, and help out with teen & children's library programs, help judge writing & art contests, give back by helping with community outreach projects, and work as a team gaining leadership experience. For more information, visit <a href="https://www.beavertonlibrary.org/232/Teen-Library-Council" target="_blank">this link</a>.</p>
+    <p>I was a former member of the Beaverton TLC during two terms between 2023-2025. I helped record podcasts which are posted on the library website, and I ran events like Oregon Battle of the Books(OBOB) mock competitions. I volunteered for over 25 hours in various events from art contests to free comic books days. </p>
+    </div>
+    <button class="read-more-btn" onclick="toggleDescription('desc-5', this)">Read more</button>
+  </div>
+</div>
+
 <script>
   function toggleDescription(id, btn) {
     const el = document.getElementById(id);
