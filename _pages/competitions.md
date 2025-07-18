@@ -1,6 +1,10 @@
 ---
 permalink: /competitions/
 title: "Competition Math"
+author_profile: true
+sidebar:
+  nav: "main"
+classes: wide
 ---
 
 For the last $3$ years, I have been actively competing in the **MAA's American Mathematics Competition competition series**, and earned the following achievements:
