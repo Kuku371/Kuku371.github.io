@@ -1,5 +1,4 @@
-# Welcome to Jekyll!
-
+# Site settings
 title: Keshav Karumbunathan
 email: keshavkarumbu0@gmail.com
 description: >-
@@ -8,6 +7,7 @@ github_username: Kuku371
 minimal_mistakes_skin: sunrise
 search: true
 
+# Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 
@@ -27,9 +27,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Keshav Karumbunathan"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "I am a student at Jesuit High School in Portland, Oregon who is interested in math and computer science."
+  name: "Keshav Karumbunathan"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "I am a student at Jesuit High School in Portland, Oregon who is interested in math and computer science."
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
@@ -59,7 +59,7 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/kayshavk"
 
-# ✅ Main navigation items
+# Main navigation - all links here
 main:
   - title: "Home"
     url: /
@@ -78,12 +78,12 @@ main:
   - title: "FAQs"
     url: /faqs/
 
-# ✅ Sidebar configuration to use same nav
+# Sidebar navigation config using main nav
 sidebar:
   nav: "main"
   sticky: true
 
-# ✅ Site-wide defaults to show sidebar and shrink nav
+# Defaults to use sidebar nav on all posts and pages
 defaults:
   - scope:
       path: ""
@@ -98,7 +98,6 @@ defaults:
       mathjax: true
       sidebar:
         nav: "main"
-
   - scope:
       path: "_pages"
       type: pages
@@ -108,7 +107,7 @@ defaults:
       sidebar:
         nav: "main"
 
-# ✅ Category and tag pages
+# Category and tag archives
 category_archive:
   type: liquid
   path: /categories/
@@ -116,7 +115,7 @@ tag_archive:
   type: liquid
   path: /tags/
 
-# ✅ Load custom CSS to shrink nav font
+# Load custom CSS for hamburger menu only nav + smaller fonts
 minimal_mistakes:
   custom_css:
     - /assets/css/custom.css
