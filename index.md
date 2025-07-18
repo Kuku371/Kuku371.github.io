@@ -89,7 +89,7 @@ I am reachable on <span style="position: relative; cursor: help;">
   ">
     username: CrunchyCucumber
   </span>
-</span>.
+</span>
 
 <script>
   document.querySelectorAll("span[style*='position: relative']").forEach(el => {
