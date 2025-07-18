@@ -115,7 +115,3 @@ tag_archive:
   type: liquid
   path: /tags/
 
-# Load custom CSS for hamburger menu only nav + smaller fonts
-minimal_mistakes:
-  custom_css:
-    - /assets/css/custom.css
