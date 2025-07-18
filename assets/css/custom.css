@@ -1,7 +1,7 @@
 /* Shrink top nav font and spacing */
 .nav__items a {
   font-size: 0.75rem !important;      /* Smaller font */
-  padding: 0 4px !important;          /* Less left/right padding */
+  padding: 0 12px !important;          /* Less left/right padding */
   margin: 0 !important;               /* Remove extra margins */
 }
 
