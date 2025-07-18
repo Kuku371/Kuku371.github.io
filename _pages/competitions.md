@@ -16,7 +16,7 @@ For the last $3$ years, I have been actively competing in the **MAA's American M
 * MOP Qualifier(2025)
 * ELMO Silver Medalist(2025)
 
-I am also a leader of the [**Oregon Math Circle**](https://www.oregonmathcircle.org), which actively competes in competitions such as the Harvard-MIT & Stanford Math tournaments, and the American Regional Mathematics League(ARML).
+I am also a leader of the [**Oregon Math Circle**](https://www.oregonmathcircle.org), which actively competes in competitions such as the Harvard-MIT & Stanford Math tournaments, and the American Regional Mathematics League(ARML). I have earned:
 
 * SMT Algebra Distinguished Honorable Mention(2025)
 * SMT $6$th Place Overall Team(2025)
