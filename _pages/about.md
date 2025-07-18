@@ -3,17 +3,6 @@ permalink: /about/
 title: "About me"
 ---
 
-
-
-<style>
-  /* Only widen the content area — not entire layout */
-  .page__content {
-    max-width: 1400px !important;
-  }
-</style>
-
-
-
 [<img src="https://www.oregonmathcircle.org/static/media/keshav-prof-pic.83deb0a285ba5806065f.jpg" alt="Keshav Karumbunathan" width="200" style="display: block; margin: 0 auto" />](https://www.oregonmathcircle.org/static/media/keshav-prof-pic.83deb0a285ba5806065f.jpg)
 
 My name is Keshav Karumbunathan, and I am a sophomore at Jesuit High School in Portland, Oregon. I am a student who is passionate about mathematics, computer science, quantum computing, and swimming.
