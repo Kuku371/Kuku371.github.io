@@ -1,6 +1,10 @@
 ---
 permalink: /faqs/
 title: "Frequently Asked Questions"
+author_profile: true
+sidebar:
+  nav: "main"
+classes: wide
 ---
 
 <h1>What can me/my child do to advance mathematically?</h1>
