@@ -1,6 +1,10 @@
 ---
 permalink: /about/
 title: "About me"
+author_profile: true
+sidebar:
+  nav: "main"
+classes: wide
 ---
 
 [<img src="https://www.oregonmathcircle.org/static/media/keshav-prof-pic.83deb0a285ba5806065f.jpg" alt="Keshav Karumbunathan" width="200" style="display: block; margin: 0 auto" />](https://www.oregonmathcircle.org/static/media/keshav-prof-pic.83deb0a285ba5806065f.jpg)
