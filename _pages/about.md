@@ -4,12 +4,11 @@ title: "About me"
 ---
 
 
+
 <style>
-  .initial-content,
-  .page,
-  main.page {
-    max-width: 1200px !important; /* Wider than default (~800px) */
-    width: auto !important;       /* Don't stretch under sidebar */
+  /* Only widen the content area — not entire layout */
+  .page__content {
+    max-width: 1000px !important;
   }
 </style>
 
