@@ -1,16 +1,21 @@
+/* Shrink top nav font size and spacing */
 .nav__items a {
-  font-size: 0.7rem !important;
-  padding: 0 2px !important;
-  margin: 0 !important;
-  letter-spacing: 0 !important;
+  font-size: 0.7rem !important;      /* smaller font */
+  padding-left: 6px !important;      /* less horizontal padding */
+  padding-right: 6px !important;
+  margin: 0 !important;               /* no margins */
+  letter-spacing: 0 !important;      /* no extra letter spacing */
 }
 
-/* Optional: shrink logo padding if needed */
-.masthead__inner-wrap {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+/* Optionally, reduce header container padding so nav fits better */
+.site-header__inner {
+  max-width: 100% !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
 }
 
-body {
-  background: lime !important;
+/* Allow horizontal scroll if nav items overflow */
+.nav__items {
+  overflow-x: auto;
+  white-space: nowrap;
 }
