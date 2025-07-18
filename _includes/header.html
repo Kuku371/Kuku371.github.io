@@ -1,6 +1,33 @@
+<style>
+  /* Hide the default top navigation links */
+  .nav__items {
+    display: none !important;
+  }
+
+  /* Show hamburger toggle */
+  .site-header__menu-toggle {
+    display: block !important;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* Hamburger icon size */
+  .site-header__menu-toggle svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  /* Optional: reduce header padding for tighter layout */
+  .site-header__inner {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+</style>
+
 <header class="site-header" role="banner" aria-label="Site header">
   <div class="site-header__inner container">
-    
+
     <!-- Site title/logo -->
     <div class="site-header__brand">
       <a href="{{ '/' | relative_url }}" class="site-header__logo-link" aria-label="{{ site.title }}">
