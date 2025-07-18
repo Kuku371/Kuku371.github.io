@@ -8,7 +8,7 @@ title: "About me"
 <style>
   /* Only widen the content area — not entire layout */
   .page__content {
-    max-width: 1000px !important;
+    max-width: 1400px !important;
   }
 </style>
 
