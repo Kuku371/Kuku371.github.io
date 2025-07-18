@@ -1,13 +1,17 @@
 main:
-  - title: "Blog"
-    url: /blog/
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
   - title: "Competitions"
     url: /competitions/
-  - title: "Books"
-    url: /books/
   - title: "Groups"
     url: /groups/
   - title: "Studies"
     url: /studies/
-  - title: "Home"
-    url: /
+  - title: "Books"
+    url: /books/
+  - title: "Blog"
+    url: /blog/
+  - title: "FAQs"
+    url: /faqs/
