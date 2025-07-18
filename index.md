@@ -89,7 +89,9 @@ I am reachable on <span style="position: relative; cursor: help;">
   ">
     username: CrunchyCucumber
   </span>
-</span>
+</span> Every day I try to live by these inspirational words(which are on a poster next to my bed):
+
+> "It's a constant quest to try to be better today than you were yesterday and better tomorrow than you were the day before" -Kobe Bryant
 
 <script>
   document.querySelectorAll("span[style*='position: relative']").forEach(el => {
