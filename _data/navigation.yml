@@ -9,9 +9,9 @@ main:
     url: /groups/
   - title: "Studies"
     url: /studies/
-  - title: "Books"
+  - title: "Book"
     url: /books/
   - title: "Blog"
     url: /blog/
-  - title: "FAQs"
+  - title: "FAQ"
     url: /faqs/
