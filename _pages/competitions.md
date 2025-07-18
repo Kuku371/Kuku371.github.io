@@ -1,6 +1,6 @@
 ---
 permalink: /competitions/
-title: "Competition Math"
+title: "Competition Results"
 author_profile: true
 sidebar:
   nav: "main"
@@ -22,6 +22,11 @@ I am also a leader of the [**Oregon Math Circle**](https://www.oregonmathcircle.
 * SMT $6$th Place Overall Team(2025)
 * ARML $17$th place Overall Team(2024)
 
+Here are some miscellaneous competition results from recent years:
+
+* Placed 44th and 15th at the MathCounts National Competition(2024, 2025)
+* Promoted to USACO Silver Division(2023)
+* ACSL Finals Junior Division Gold Medalist(2023)
 
 
 
