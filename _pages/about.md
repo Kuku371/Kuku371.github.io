@@ -1,13 +1,20 @@
 ---
 permalink: /about/
 title: "About me"
+author_profile: true
+sidebar:
+  nav: "main"
 ---
 
 
 <style>
-  .page {
+  .initial-content,
+  .page,
+  main.page {
     max-width: 100% !important;
     width: 100% !important;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 </style>
 
