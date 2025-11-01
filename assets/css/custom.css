@@ -1,10 +1,26 @@
 /* Max page width on all pages */
-.page,
+body,
+.site,
+.wrap,
 #main,
-.wrap {
-  max-width: 100% !important;
-  width: 100% !important;
-  box-sizing: border-box;
+.page,
+.page__inner-wrap,
+.page__content,
+.archive,
+.page__hero--overlay,
+.site-content {
+  max-width: 100vw !important;
+  width: 100vw !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
   padding-left: 0 !important;
   padding-right: 0 !important;
+  box-sizing: border-box !important;
+  overflow-x: initial;
 }
+
+/* Remove left/right padding from site header and footer */
+.site-header,
+.site-footer {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
