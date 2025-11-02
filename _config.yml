@@ -76,7 +76,6 @@ main:
 # Sidebar navigation config using main nav
 sidebar:
   nav: "main"
-  sticky: true
 
 # Defaults to use sidebar nav on all posts and pages
 defaults:
