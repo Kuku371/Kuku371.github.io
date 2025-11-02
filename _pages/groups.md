@@ -133,7 +133,7 @@ classes: wide
 </div>
 
 <div class="org-card">
-  <img class="org-logo" src="https://www.beavertonlibrary.org/ImageRepository/Document?documentID=8212" alt="TLC Logo">
+  <img class="org-logo" src="https://drive.google.com/file/d/13ikzZOavzQqqNSmcTVncWHebobqy82tu/view?usp=sharing" alt="MathWizards Logo">
   <div class="org-content">
     <div class="org-title">MathWizards Founder & CEO </div>
     <div class="org-description" id="desc-2">
