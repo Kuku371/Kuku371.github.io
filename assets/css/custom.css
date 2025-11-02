@@ -1,48 +1,55 @@
-/* Make the main container full width */
-.page {
-  width: 100% !important;
+/* Force full width containers */
+body,
+.layout--single,
+.layout--home,
+.layout--archive {
   max-width: 100% !important;
-}
-
-/* Content area - push it away from sidebar with left margin */
-.page__content {
-  max-width: none !important;
   width: 100% !important;
-  margin-left: 2em !important; /* Add space between sidebar and content */
-  padding-right: 1em !important;
 }
 
-/* Make sure sidebar stays in place */
-.sidebar {
-  margin-right: 0 !important;
-}
-
-/* Full width for main container */
+/* Main content wrapper */
 #main {
   max-width: 100% !important;
   width: 100% !important;
+  padding: 0 !important;
 }
 
-/* Adjust the overall site container */
 .initial-content {
   max-width: 100% !important;
   width: 100% !important;
 }
 
-/* Make masthead/header full width */
+/* The actual content area next to sidebar */
+.sidebar__right ~ .page__content,
+.sidebar__right + * {
+  margin-left: 2em !important;
+  padding-left: 2em !important;
+  max-width: none !important;
+}
+
+/* Or try targeting the main article */
+article.page {
+  margin-left: 2em !important;
+  padding-left: 2em !important;
+}
+
+/* Sidebar positioning */
+.sidebar__right {
+  margin-right: 2em !important;
+}
+
+/* Full width page wrapper */
+.page {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+.page__inner-wrap {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/* Masthead full width */
 .masthead {
   max-width: 100% !important;
-}
-
-/* Remove body margins */
-body {
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-/* Target the actual content wrapper more specifically */
-.page__inner-wrap {
-  max-width: none !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
 }
