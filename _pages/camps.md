@@ -68,6 +68,12 @@ classes: wide
   }
 </style>
 
+
+
+<div class="org-container">
+
+
+
 <div class="org-card">
   <img class="org-logo" src="https://cdn.discordapp.com/icons/1361181397762572340/b068cc98d0d7f4fd2447c214f6aa80fb.png?size=64" alt="MOP Logo">
   <div class="org-content">
@@ -102,6 +108,8 @@ classes: wide
     </div>
     <button class="read-more-btn" onclick="toggleDescription('desc-3', this)">Read more</button>
   </div>
+</div>
+
 </div>
 
 <script>
