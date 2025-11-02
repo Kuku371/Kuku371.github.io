@@ -64,6 +64,8 @@ main:
     url: /competitions/
   - title: "Groups"
     url: /groups/
+  - title: "Camps"
+    url: /camps/
   - title: "Studies"
     url: /studies/
   - title: "Books"
