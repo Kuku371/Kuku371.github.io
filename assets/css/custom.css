@@ -1,35 +1,47 @@
-/* Force the main content and all containers to full viewport width */
-body,
-.site,
-.wrap,
-#main,
-.page,
-.page__inner-wrap,
-.page__content,
-.archive,
-.page__hero--overlay,
-.site-content,
+/* Make the main container full width */
+.page {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.page__inner-wrap {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+/* Expand the content area while keeping sidebar */
+.page__content {
+  width: 100% !important;
+  max-width: none !important;
+  margin-right: 0 !important;
+}
+
+/* Full width for archive and home pages */
+.archive {
+  width: 100% !important;
+  max-width: none !important;
+}
+
+.archive__item-body {
+  width: 100% !important;
+}
+
+/* Keep sidebar but let content expand */
+.layout--single .page__related {
+  max-width: none !important;
+}
+
+/* Make sure the main content wrapper uses full width */
+#main {
+  max-width: 100% !important;
+}
+
+/* Adjust the overall site container */
 .initial-content {
-  max-width: 100vw !important;
-  width: 100vw !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  box-sizing: border-box !important;
+  max-width: 100% !important;
 }
 
-/* Remove the sidebar background and make it collapse */
-.sidebar,
-.sidebar__right,
-.sidebar__left {
-  display: none !important;
-}
-
-/* Make sure the header and footer also stretch */
-.site-header,
-.site-footer {
-  max-width: 100vw !important;
-  width: 100vw !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  box-sizing: border-box !important;
+/* Make masthead/header full width */
+.masthead {
+  max-width: 100% !important;
 }
