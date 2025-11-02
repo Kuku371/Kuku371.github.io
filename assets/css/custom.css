@@ -3,40 +3,34 @@ body {
   max-width: 100% !important;
   width: 100% !important;
 }
-
 #main {
   max-width: 100% !important;
   width: 100% !important;
 }
-
 .initial-content {
   max-width: 100% !important;
   width: 100% !important;
 }
-
 /* Full width for the page article */
 article.page {
   max-width: 100% !important;
   width: 100% !important;
 }
-
 /* Make masthead full width */
 .masthead {
   max-width: 100% !important;
 }
-
 /* DON'T hide sidebar - make sure it's visible */
 .sidebar {
   display: block !important;
   visibility: visible !important;
 }
-
 /* Add spacing to content */
 .page__inner-wrap {
-  padding-left: 3em !important;
-  padding-right: 3em !important;
+  margin-left: 200px !important;  /* Push past the sidebar */
+  padding-left: 2em !important;   /* 2em space from sidebar */
+  padding-right: 2em !important;  /* 2em space from right edge */
 }
-
 section.page__content {
   max-width: none !important;
 }
