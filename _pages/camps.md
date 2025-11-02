@@ -71,10 +71,10 @@ classes: wide
 <div class="org-card">
   <img class="org-logo" src="https://cdn.discordapp.com/icons/1361181397762572340/b068cc98d0d7f4fd2447c214f6aa80fb.png?size=64" alt="MOP Logo">
   <div class="org-content">
-    <div class="org-title">Mathematical Olympiad Summer Program (MOP) Participant</div>
+    <div class="org-title">Mathematical Olympiad Summer Program (MOP) Qualifier 2025</div>
     <div class="org-description" id="desc-1">
-    <p>The Mathematical Olympiad Program (MOP), formerly called the Mathematical Olympiad Summer Program (MOSP), is an intensive summer program sponsored by the Mathematical Association of America. The main purpose of MOP, held since 1974, is to select and train the six members of the U.S. team for the International Mathematical Olympiad (IMO).</p>
-    <p>I qualified for the Green group at MOP by scoring a 28 on the USA Math olympiad, earning a silver medal. At MOP, I earned a silver medal on the ELMO contest for first-time participants, went through hours of rigorous math training courses on a daily basis, and took mock olympiads almost every other day.</p>
+    <p>The Mathematical Olympiad Program (MOP), formerly called the Mathematical Olympiad Summer Program (MOSP), is an intensive summer program sponsored by the Mathematical Association of America. The main purpose of MOP, held since 1974, is to select and train the six members of the U.S. team for the International Mathematical Olympiad (IMO). For more information, check out <a href="https://web.evanchen.cc/mop.html/" target="_blank">this link</a>. </p>
+    <p>I qualified for the Green group at MOP as a 9th grader by scoring a 28 on the USA Math olympiad, earning a silver medal. At MOP, I earned a silver medal on the ELMO contest for first-time participants, went through hours of rigorous math training courses on a daily basis, and took mock olympiads almost every other day.</p>
     </div>
     <button class="read-more-btn" onclick="toggleDescription('desc-1', this)">Read more</button>
   </div>
@@ -83,7 +83,7 @@ classes: wide
 <div class="org-card">
   <img class="org-logo" src="https://mathquantum.umd.edu/media/logo_hufe77ac44593b2476901cdeb3aa4f9e3d_30646_0x70_resize_lanczos_3.png" alt="MathQuantum Logo">
   <div class="org-content">
-    <div class="org-title">MathQuantum RTG High School Fellow</div>
+    <div class="org-title">MathQuantum RTG High School Fellow 2025</div>
     <div class="org-description" id="desc-2">
     <p>MathQuantum is a Research Training Group (RTG) focused on enabling Mathematicians to enter the world of Quantum Information Science (QIS). We are housed at IPST and funded by NSF. With MathQuantum, we are building an educational program that will blend with collaborative research, such that education and research enhance each other in a vertically integrated training group. The research draws from a set of Mathematical areas where our faculty have expertise, and advance these by tackling QIS challenges under three themes. High school fellowships are offered during summer to about 10 students, who will participate together as a cohort. Fellowships consist of a ~2-week online program of math and quantum information science lectures, seminars, professional development workshops, hands-on activities, discussions, and a mini-project. For more information, check out <a href="https://mathquantum.umd.edu/" target="_blank">this link</a>.</p>
     <p>I joined as part of the 2025 High School Fellowship cohort. Through MathQuantum, I have had mentored research, coursework, and seminars in applying mathematics to QIS problems. I also have access to internship opportunities at quantum companies & labs, various outreach activities, and networking opportunities.</p>
@@ -92,6 +92,17 @@ classes: wide
   </div>
 </div>
 
+<div class="org-card">
+  <img class="org-logo" src="https://mathquantum.umd.edu/media/logo_hufe77ac44593b2476901cdeb3aa4f9e3d_30646_0x70_resize_lanczos_3.png" alt="MathQuantum Logo">
+  <div class="org-content">
+    <div class="org-title">MathPath Participant 2022 & 2023</div>
+    <div class="org-description" id="desc-3">
+    <p>MathPath is a four-week residential summer program for students showing high promise and interest in mathematics. The goal of MathPath is to extend their knowledge and skills in mathematics and to immerse them in mathematical culture. All students who attend MathPath are between the ages of 11 and 14. Our faculty provide courses in advanced topics - topics that would not traditionally be covered in a school curriculum. The topics of our courses are those that every budding mathematician should know, but are rarely taught in school. These topics include math history, number theory, induction, combinatorics, various geometries, proof-writing, graph theory, game theory, etc. For information on the background needed to attend MathPath, see our FAQ page.For more information, check out <a href="https://mathpath.org/" target="_blank">this link</a>.</p>
+    <p>I participated in MathPath in the summers following my 6th and 7th grade years. I took a variety of classes and won a POD, problem of the day, and was able to present my solution to the camp. In my returning year, I took specialized returner courses on number theory. </p>
+    </div>
+    <button class="read-more-btn" onclick="toggleDescription('desc-3', this)">Read more</button>
+  </div>
+</div>
 
 <script>
   function toggleDescription(id, btn) {
