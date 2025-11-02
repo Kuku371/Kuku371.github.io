@@ -2,21 +2,26 @@
 .page {
   width: 100% !important;
   max-width: 100% !important;
+  padding: 0 !important;
 }
 
+/* Adjust the page inner wrap to account for sidebar */
 .page__inner-wrap {
   max-width: none !important;
   width: 100% !important;
   display: flex !important;
-  gap: 1em !important;
+  gap: 2em !important; /* Increased gap between sidebar and content */
+  padding: 0 1em !important; /* Add some padding on edges */
+  margin: 0 !important;
 }
 
-/* Expand the content area while keeping sidebar */
+/* Content area should flex and use remaining space */
 .page__content {
-  width: 100% !important;
+  flex: 1 !important;
   max-width: none !important;
   width: auto !important;
-  margin-right: 0 !important;
+  min-width: 0 !important;
+  padding: 0 !important;
 }
 
 /* Sidebar should have fixed width */
@@ -24,6 +29,7 @@
   flex-shrink: 0 !important;
   width: 300px !important;
   position: relative !important;
+  padding: 0 !important;
 }
 
 .sidebar.sticky {
@@ -35,27 +41,41 @@
 .archive {
   width: 100% !important;
   max-width: none !important;
+  padding: 0 !important;
 }
 
 /* Make sure the main content wrapper uses full width */
 #main {
   max-width: 100% !important;
   width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 /* Adjust the overall site container */
 .initial-content {
   max-width: 100% !important;
   width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 /* Make masthead/header full width */
 .masthead {
   max-width: 100% !important;
+  padding: 0 1em !important;
 }
 
 /* Ensure proper spacing */
 body {
   margin: 0 !important;
   padding: 0 !important;
+}
+
+/* Remove any default container padding */
+.layout--single,
+.layout--archive,
+.layout--home {
+  padding: 0 !important;
+  margin: 0 !important;
 }
