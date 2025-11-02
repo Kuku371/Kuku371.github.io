@@ -7,13 +7,28 @@
 .page__inner-wrap {
   max-width: none !important;
   width: 100% !important;
+  display: flex !important;
+  gap: 1em !important;
 }
 
 /* Expand the content area while keeping sidebar */
 .page__content {
   width: 100% !important;
   max-width: none !important;
+  width: auto !important;
   margin-right: 0 !important;
+}
+
+/* Sidebar should have fixed width */
+.sidebar {
+  flex-shrink: 0 !important;
+  width: 300px !important;
+  position: relative !important;
+}
+
+.sidebar.sticky {
+  position: sticky !important;
+  top: 2em !important;
 }
 
 /* Full width for archive and home pages */
@@ -22,26 +37,25 @@
   max-width: none !important;
 }
 
-.archive__item-body {
-  width: 100% !important;
-}
-
-/* Keep sidebar but let content expand */
-.layout--single .page__related {
-  max-width: none !important;
-}
-
 /* Make sure the main content wrapper uses full width */
 #main {
   max-width: 100% !important;
+  width: 100% !important;
 }
 
 /* Adjust the overall site container */
 .initial-content {
   max-width: 100% !important;
+  width: 100% !important;
 }
 
 /* Make masthead/header full width */
 .masthead {
   max-width: 100% !important;
+}
+
+/* Ensure proper spacing */
+body {
+  margin: 0 !important;
+  padding: 0 !important;
 }
