@@ -9,17 +9,22 @@ body {
 #main {
   max-width: 100% !important;
   width: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
 }
 
 .initial-content {
   max-width: 100% !important;
   width: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
 }
 
 /* Full width for the page article */
 article.page {
   max-width: 100% !important;
   width: 100% !important;
+  order: 1 !important; /* Content comes first */
 }
 
 /* Make masthead full width */
@@ -29,6 +34,7 @@ article.page {
 
 /* Move sidebar to bottom and make it horizontal */
 .sidebar {
+  order: 2 !important; /* Sidebar comes after content */
   position: relative !important;
   width: 100% !important;
   max-width: 100% !important;
