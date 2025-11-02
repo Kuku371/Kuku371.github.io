@@ -2,8 +2,6 @@
 body {
   max-width: 100% !important;
   width: 100% !important;
-  margin: 0 !important;
-  padding: 0 !important;
 }
 
 #main {
@@ -27,27 +25,18 @@ article.page {
   max-width: 100% !important;
 }
 
-/* For layout with sidebar on right */
-.layout--single.wide {
-  max-width: 100% !important;
+/* DON'T hide sidebar - make sure it's visible */
+.sidebar {
+  display: block !important;
+  visibility: visible !important;
 }
 
-/* Add spacing from sidebar AND from right edge */
-@media (min-width: 37.5em) {
-  .layout--single .page__inner-wrap {
-    padding-left: 3em !important; /* Space from sidebar */
-    padding-right: 3em !important; /* Space from right edge */
-    max-width: none !important;
-  }
-  
-  section.page__content {
-    max-width: 100% !important;
-  }
+/* Add spacing to content */
+.page__inner-wrap {
+  padding-left: 3em !important;
+  padding-right: 3em !important;
 }
 
-/* On mobile, normal padding */
-@media (max-width: 37.49em) {
-  .page__inner-wrap {
-    padding: 1em !important;
-  }
+section.page__content {
+  max-width: none !important;
 }
