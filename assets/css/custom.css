@@ -95,3 +95,20 @@ section.page__content {
   max-width: 100% !important;
   width: 100% !important;
 }
+
+.layout--single {
+  display: flex !important;
+  flex-direction: column !important; /* Stack children vertically */
+}
+
+.layout--single #primary, 
+.layout--single .page__content {
+  order: 1; /* Ensure main content comes first */
+}
+
+.layout--single .sidebar {
+  order: 2; /* Sidebar appears after content */
+  width: 100% !important;
+  float: none !important; /* Remove old float */
+  margin-top: 3em !important;
+}
