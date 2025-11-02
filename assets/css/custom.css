@@ -1,17 +1,14 @@
 /* Force full width containers */
-body,
-.layout--single,
-.layout--home,
-.layout--archive {
+body {
   max-width: 100% !important;
   width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
-/* Main content wrapper */
 #main {
   max-width: 100% !important;
   width: 100% !important;
-  padding: 0 !important;
 }
 
 .initial-content {
@@ -19,37 +16,32 @@ body,
   width: 100% !important;
 }
 
-/* The actual content area next to sidebar */
-.sidebar__right ~ .page__content,
-.sidebar__right + * {
-  margin-left: 2em !important;
-  padding-left: 2em !important;
-  max-width: none !important;
-}
-
-/* Or try targeting the main article */
+/* Full width for the page article */
 article.page {
-  margin-left: 2em !important;
-  padding-left: 2em !important;
-}
-
-/* Sidebar positioning */
-.sidebar__right {
-  margin-right: 2em !important;
-}
-
-/* Full width page wrapper */
-.page {
   max-width: 100% !important;
   width: 100% !important;
 }
 
+/* This is the key - add spacing to the inner wrap */
 .page__inner-wrap {
   max-width: 100% !important;
   width: 100% !important;
+  padding-left: 2em !important;
+  padding-right: 2em !important;
 }
 
-/* Masthead full width */
+/* The actual content section */
+section.page__content {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+/* Make masthead full width */
 .masthead {
+  max-width: 100% !important;
+}
+
+/* For layout with sidebar on right */
+.layout--single.wide {
   max-width: 100% !important;
 }
