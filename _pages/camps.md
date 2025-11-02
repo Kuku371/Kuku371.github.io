@@ -21,7 +21,7 @@ classes: wide
     border: 1px solid #ddd;
     border-radius: 12px;
     padding: 16px;
-    background: #266e30;
+    background: #2ba668;
     box-shadow: 0 2px 5px rgba(0,0,0,0.08);
     align-items: flex-start;
     position: relative;
