@@ -5,8 +5,6 @@ description: >-
   Website for Keshav Karumbunathan including his blog posts, achievements, and math results.
 github_username: Kuku371
 minimal_mistakes_skin: sunrise
-custom_css:
-  - /assets/css/custom.css
 search: true
 
 # Build settings
@@ -111,4 +109,6 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+head_scripts:
+  - /assets/css/custom.css
 
