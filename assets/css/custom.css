@@ -9,6 +9,8 @@ body {
 #main {
   max-width: 100% !important;
   width: 100% !important;
+  display: flex !important;
+  flex-direction: column-reverse !important; /* REVERSE the order */
 }
 
 .initial-content {
@@ -27,22 +29,14 @@ article.page {
   max-width: 100% !important;
 }
 
-/* Move sidebar to bottom using position */
+/* Sidebar styling */
 .sidebar {
-  position: static !important;
   width: 100% !important;
   max-width: 100% !important;
   float: none !important;
-  clear: both !important;
-  margin-top: 3em !important;
   padding: 2em !important;
   border-top: 2px solid rgba(0,0,0,0.1) !important;
-  display: block !important;
-}
-
-/* Force sidebar to appear after content */
-.layout--single .sidebar {
-  margin-top: 3em !important;
+  margin-bottom: 2em !important;
 }
 
 /* Make sidebar content horizontal */
@@ -94,9 +88,4 @@ article.page {
 section.page__content {
   max-width: 100% !important;
   width: 100% !important;
-}
-
-.layout--single {
-  display: flex !important;
-  flex-direction: column !important; /* Stack children vertically */
 }
