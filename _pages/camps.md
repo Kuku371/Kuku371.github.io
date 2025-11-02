@@ -21,7 +21,7 @@ classes: wide
     border: 1px solid #ddd;
     border-radius: 12px;
     padding: 16px;
-    background: #7ea3c2;
+    background: #266e30;
     box-shadow: 0 2px 5px rgba(0,0,0,0.08);
     align-items: flex-start;
     position: relative;
@@ -60,7 +60,7 @@ classes: wide
   .read-more-btn {
     background: none;
     border: none;
-    color: #266e30;
+    color: #083820;
     cursor: pointer;
     padding: 4px 0;
     font-weight: bold;
