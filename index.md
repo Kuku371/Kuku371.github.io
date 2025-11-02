@@ -4,7 +4,6 @@ title: "Home"
 author_profile: true
 sidebar:
   nav: "main"
-classes: wide
 ---
 
 This is the homepage of Keshav Karumbunathan, a sophomore from Portland, Oregon who is interested in mathematics, computer science, quantum computing, and more. Feel free to check out different tabs on my website to learn more about me, my mathematical accomplishments, my research & studies, and organizations I am part of. 
